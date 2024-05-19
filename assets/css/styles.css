@@ -1,0 +1,170 @@
+/* Elements */
+
+h1,
+h2.card-title,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #F90000;
+}
+
+h1.card-title {
+    font-size: 5rem;
+    text-shadow: #212529 0em 0em 0.3em;
+    color: #F0ECD9;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #F90000;
+}
+
+p,
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #F90000;
+}
+
+a:hover {
+    color: #F4F0DB;
+}
+
+input.form-control,
+textarea.form-control {
+    border: 0.1rem solid #F0ECD9;
+    border-radius: 0.5rem;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    border: 0.1rem solid #F90000;
+    border-radius: 1rem;
+}
+
+header {
+    background-color: #070403;
+}
+
+/* Classes */
+
+.crimson-underline {
+    color: #F90000;
+    text-decoration: underline;
+}
+
+.crimson-color {
+    color: #F90000;
+}
+
+.main-video {
+    width: 100%;
+    height: 30rem;
+    filter: brightness(50%);
+}
+
+.blockquote {
+    font-style: italic;
+}
+
+.form-text {
+    color: #7D7D7D !important;
+}
+
+.nav-link {
+    color: #F4F0DB;
+}
+
+.nav-link:hover {
+    color: #F90000;
+}
+
+/* Bootstrap Classes */
+
+[data-bs-theme="ultra-dark"] {
+    --bs-body-bg: #070403;
+    --bs-body-color: #F4F0DB;
+    --bs-tertiary-bg: #070403;
+    --bs-tertiary-color: #F4F0DB;
+
+    table {
+        border: 1px solid #F4F0DB;
+    }
+
+    .table-striped>tbody>tr:nth-child(2n+1)>td,
+    .table-striped>tbody>tr:nth-child(2n+1)>th {
+        background-color: #212529;
+    }
+
+    button,
+    .btn .btn-danger {
+        background-color: #F90000;
+        border-color: #F90000;
+        color: black;
+    }
+
+    button:hover,
+    .btn .btn-danger:hover {
+        background-color: #F2EEDA;
+        border-color: #F2EEDA;
+        color: black;
+    }
+
+    td,
+    th {
+        color: #F4F0DB !important;
+    }
+
+    .blockquote-footer {
+        color: #7D7D7D;
+    }
+
+    .text-body-secondary {
+        color: #F4F0DB !important;
+    }
+
+    ::placeholder {
+        color: #7D7D7D;
+    }
+
+    ::-ms-input-placeholder {
+        color: #7D7D7D;
+    }
+
+    .chekbox-red:checked {
+        background-color: red;
+        border-color: red;
+    }
+
+    .chekbox-red {
+        --bs-form-switch-color: green;
+        --bs-form-switch-checked-color: red;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #070403;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F90000;
+}
