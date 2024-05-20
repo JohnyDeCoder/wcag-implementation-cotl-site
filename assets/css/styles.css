@@ -76,10 +76,6 @@ header {
     filter: brightness(50%);
 }
 
-.blockquote {
-    font-style: italic;
-}
-
 .form-text {
     color: #7D7D7D !important;
 }
@@ -167,4 +163,8 @@ header {
 
 ::-webkit-scrollbar-thumb {
     background-color: #F90000;
+}
+
+iconify-icon {
+    vertical-align: middle;
 }
